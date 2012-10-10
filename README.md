@@ -11,11 +11,11 @@ This is the problem that schema_subset is meant to solve.
 
 The Plan
 ========
-# User specifies a "main" table, and what percentage of the table to extract
-# Understand the schema relationships to find the independent tables
-# Iterate to find the tables that are only dependent on the truly independent tables
-# Continue iterating to create an entire dependency graph
-# Create extraction queries to copy the subset to a parallel set of tables
+* User specifies a "main" table, and what percentage of the table to extract
+* Understand the schema relationships to find the independent tables
+* Iterate to find the tables that are only dependent on the truly independent tables
+* Continue iterating to create an entire dependency graph
+* Create extraction queries to copy the subset to a parallel set of tables
 
 Example
 =======
